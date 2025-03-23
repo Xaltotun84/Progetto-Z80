@@ -1,0 +1,3913 @@
+{
+  "uuid": "40d13fa43996bccee6df436abeaebad8",
+  "path": "Offline/Pc z80_senza arduino",
+  "name": "Pc z80_senza arduino",
+  "content": "",
+  "created_at": "2025-02-27 16:18:04",
+  "updated_at": "2025-03-23 10:53:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "40012a44ab5de0662d1d1b2a9390b911",
+      "title": "Mother Board Z80",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4500dae7591245ab8575752d0499505c": 1,
+        "fef26605c4ef48b4bc9f9f445a912110": 1,
+        "d04f9b767c194fd1ac64a828eebd797b": 1,
+        "8635a00ecc4d48ddb2c6466ff0d2e918": 1,
+        "de6edc78fe3b47ccbdcf51875b011f12": 16,
+        "5e8a918cf8704b8ab6bad99f00bc67fa": 2,
+        "4896b99e1e444049b031d38ad70a7659": 2,
+        "e6643bd7091443268e5541adfb38b500": 1,
+        "831d946be333d4c89c4cb3d1d7daaac8": 1,
+        "60688086a667456a902a19b83d8e618d": 1,
+        "319c1407b76842b5a16ed610bcfbb4bc": 1,
+        "fc7b898429b84fdaacdb8b05a32c2a42": 2,
+        "b926777219514148bad3ab8ffc4ae2da": 2,
+        "c77d06771b19427da873ded721b090e1": 7,
+        "f367c9043b9d696814add546ab641d32": 1,
+        "fc217faf64a940a397750f89d4f53ff3": 1,
+        "9c9370e148bb499fb0ac782585ec258e": 1,
+        "bef7e5266fe34b5d86937eb89fe2d2f4": 15,
+        "e460415062654bf09552961b98984763": 1,
+        "5b2f02da1faf4980b44b38773db5bb20": 2,
+        "6360075b3fce4493abf5a6c9ef9a3a55": 1,
+        "5286fcbbec887b5055147317c2ec5c53": 1,
+        "cc57bfa248ca453e8fdad8fe172c2df1": 1,
+        "944e213c72084ea2a595d797489a042f": 2,
+        "9900276970c045968b41a8d9db21b679": 1,
+        "4369e6abef50414fb4924e06d227611e": 2,
+        "53549ad40d554dd58ad44f2fab7bbbaf": 1,
+        "cb3998efaefb4636b73fb25d214a1645": 1,
+        "8cc401de03f14a42b9bd2608d5911252": 1,
+        "5e76846539da4e3392c50544c5651b27": 2,
+        "87867668836d43d4aeb722a34bffc0c7": 1,
+        "d7978ce87a2c40a2b3b895ae8a92785e": 1,
+        "6fa43401f47d452a8a716162d8ebcc76": 1,
+        "112bb77bb8b54de9a906832a9caf7990": 1,
+        "15350b5e53f04fd7a295612e45f59719": 2,
+        "d8d552c8047b4256a589b60be7e0b258": 1,
+        "e0f95e50e2e04a72b58b9deab9df46e6": 1,
+        "dae180d62c674aa7a690c25179130f3c": 1,
+        "6107490819734af0acd77bc02316fe34": 3,
+        "6b6a1bfd826d4c84aa3b2bb2afbaa3d7": 1,
+        "252e6e36c060441192476d48a5a41e82": 1,
+        "c714a653175746b1ad0d8275c2a52ad3": 1,
+        "8a1224eb48444f64a3e1880a7c4a043a": 1,
+        "4b962a8aa6da42cea1b7f5e4b711b216": 2,
+        "b9c943b4c1424212934022b4e7582f4c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          16,
+          "CAP-TH_L7.5-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C11,C12,C13,C14,C15,C16,C21",
+          {
+            "Manufacturer Part": "82CL0113",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5359294"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C17,C18",
+          {
+            "Manufacturer Part": "RC050M1R0LO5*11TH-2A1E",
+            "Manufacturer": "BERYL(绿宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C357595"
+          }
+        ],
+        [
+          "33pF",
+          2,
+          "RCL-TH_L4.0-W2.6-LS2.5",
+          "C19,C20",
+          {
+            "Manufacturer Part": "K330J15C0GF5TL2",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2170185"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "CAP-TH_BD4.0-P1.50-D0.5-FD",
+          "C22,C23",
+          {
+            "Manufacturer Part": "6.3MS510MEFCTZ4X5",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5115397"
+          }
+        ],
+        [
+          "DC-005-20A_C136744",
+          1,
+          "DC-IN-TH_DC-005-20A",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005-20A",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136744"
+          }
+        ],
+        [
+          "X3",
+          2,
+          "HDR-TH_36P-P2.54-V-M-R2-C18-S2.54",
+          "H2,H6",
+          {
+            "Manufacturer Part": "PZ254-2-18-Z-8.5",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894979"
+          }
+        ],
+        [
+          "X1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H3",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H4",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "CLK-SELECT",
+          1,
+          "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54",
+          "H5",
+          {
+            "Manufacturer Part": "PZ254V-12-6P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492420"
+          }
+        ],
+        [
+          "JP1",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H7",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "JP2",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H8",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "BUS Z80",
+          3,
+          "HDR-TH_40P-P2.54-V-F",
+          "J1,J2,J6",
+          {
+            "Manufacturer Part": "2.54-1*40P母高5.7",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C47940"
+          }
+        ],
+        [
+          "LMB204BFC-D(2004LCD)",
+          1,
+          "LCD2004",
+          "LCD1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "TOPWAY",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LTE-4208",
+          2,
+          "LED-TH_BD5.8-P2.54-FD",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "LTE-4208",
+            "Manufacturer": "LITEON(光宝)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5346733"
+          }
+        ],
+        [
+          "CIO A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P1",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P2",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO C",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "P3",
+          {
+            "Manufacturer Part": "2.54-1*6P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C40877"
+          }
+        ],
+        [
+          "DECODER",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P4",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P5",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P6",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P7",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P8",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "BC547C",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "BC547C",
+            "Manufacturer": "LGE(鲁光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713614"
+          }
+        ],
+        [
+          "680Ω",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "Manufacturer Part": "CF1/4W-680Ω±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120051"
+          }
+        ],
+        [
+          "1kΩ",
+          2,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R9,R15",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "10kΩ",
+          9,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R10,R11,R12,R13,R24,R25,R26,RN1,RP1",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "1MΩ",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R14",
+          {
+            "Manufacturer Part": "MF1/4W-1M±1%-OT52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2903250"
+          }
+        ],
+        [
+          "220Ω",
+          2,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R16,R27",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R17",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "2.7kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R18,R19,R20,R21,R22,R23",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "RT1",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ],
+        [
+          "SCC A CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S5",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "SCC B CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S6",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "PIN LIBERI",
+          1,
+          "HDR-TH_4P-P2.54-V-F",
+          "S7",
+          {
+            "Manufacturer Part": "2.54-1*4P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2718488"
+          }
+        ],
+        [
+          "Reset",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "CLK",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW4",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "Z84C0020PEC",
+          1,
+          "PDIP-40_L52.3-W13.7-P2.54-LS15.5-BL",
+          "U1",
+          {
+            "Manufacturer Part": "Z84C0008PEG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3231800"
+          }
+        ],
+        [
+          "AT28C256-15PU",
+          1,
+          "PDIP-28_L37.0-W13.5-P2.54-LS15.6-BL",
+          "U2",
+          {
+            "Manufacturer Part": "AT28C256-15PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1348752"
+          }
+        ],
+        [
+          "BS62LV256",
+          1,
+          "CDIP-28_L37.8-W15.4-P2.54-LS15.2-BL",
+          "U3",
+          {
+            "Manufacturer Part": "CY62256NL-70PC",
+            "Manufacturer": "Infineon/CYPRESS(赛普拉斯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2956434"
+          }
+        ],
+        [
+          "SN74HCT138N",
+          1,
+          "DIP-16_L19.2-W6.6-P2.54-LS7.6-BL",
+          "U4",
+          {
+            "Manufacturer Part": "SN74HCT138N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67461"
+          }
+        ],
+        [
+          "CIO Z8536 6MHz",
+          1,
+          "PDIP-40_L52.3-W13.8-P2.54-LS15.2-BL",
+          "U5",
+          {
+            "Manufacturer Part": "Z0853606PSG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2614526"
+          }
+        ],
+        [
+          "Z8530 SCC",
+          1,
+          "PDIP-40_L51.8-W13.5-P2.54-LS15.4-BL",
+          "U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HCT04N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "U8",
+          {
+            "Manufacturer Part": "SN74HCT04N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50939"
+          }
+        ],
+        [
+          "SN74HCT14N",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U9",
+          {
+            "Manufacturer Part": "SN74HCT14N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352959"
+          }
+        ],
+        [
+          "SN74HCT32N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS8.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "SN74HCT32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869289"
+          }
+        ],
+        [
+          "CD74HCT74E",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U11",
+          {
+            "Manufacturer Part": "CD74HCT74E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523192"
+          }
+        ],
+        [
+          "SN74HCT574N",
+          2,
+          "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
+          "U12,U13",
+          {
+            "Manufacturer Part": "SN74HCT574N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523201"
+          }
+        ],
+        [
+          "SN74HCT02N",
+          1,
+          "DIP-14_L19.6-W6.4-P2.54-LS7.6-BL",
+          "U14",
+          {
+            "Manufacturer Part": "SN74HCT02N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C354417"
+          }
+        ],
+        [
+          "SN74HCT244N",
+          2,
+          "DIP-20_L25.5-W10.0-P2.54-LS7.6-BL",
+          "U15,U16",
+          {
+            "Manufacturer Part": "SN74HCT244N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347587"
+          }
+        ],
+        [
+          "X4",
+          1,
+          "HDR-TH_1P-V-F-1",
+          "X4",
+          {
+            "Manufacturer Part": "X5511FV-01-C30D97-0970",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2883469"
+          }
+        ],
+        [
+          "G1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "X5",
+          {
+            "Manufacturer Part": "ZX-PZ2.54-1-2PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7501260"
+          }
+        ],
+        [
+          "X6",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54",
+          "X6",
+          {
+            "Manufacturer Part": "PZ254V-12-4P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492419"
+          }
+        ],
+        [
+          "6MHz",
+          1,
+          "HC-49US_L11.0-W4.6-P4.88",
+          "XTAL1",
+          {
+            "Manufacturer Part": "ECS-60-32-4X",
+            "Manufacturer": "ECS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2636154"
+          }
+        ]
+      ],
+      "updateTime": 1742723622,
+      "createTime": 1740669484,
+      "histories": [],
+      "created_at": "2025-02-27 16:18:04",
+      "updated_at": "2025-03-23 10:53:42"
+    },
+    {
+      "uuid": "fd539dcb185570168829fec183032e05",
+      "puuid": "40d13fa43996bccee6df436abeaebad8",
+      "title": "PCB_Pc z80_senza arduino_2",
+      "filename": "PCB_Pc z80_senza arduino_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "97b360975e524cc5a288f76a9239f480": 16,
+        "bc5e7caa6ce24680859c98593b802c4a": 1,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 3,
+        "d985078ebb5942c7ae4d17d3b71c4141": 2,
+        "e27e43a87233424da496ee2ae00cee25": 1,
+        "7012a5280a4447c6b89d74d20dba8ed7": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 4,
+        "5034cc45f37345f69e0f5323801c5716": 1,
+        "84f1ed3c8ee94504833047c26b4d21a2": 3,
+        "9f6fc8be498a43fb8bd7f327d2e2b0ba": 2,
+        "c33835c452fa4ef7836f90bb3b315c4d": 1,
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "3270674de653459681213848d7625a65": 2,
+        "17eda053266b4cdca86c67384ca2b6c2": 7,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "666264fd42b84465ad050a9517cab8cf": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 15,
+        "02e9a7a961db4476b473a93445dcc24e": 2,
+        "f6ffa34674dd47c09fdfebb09b99661e": 2,
+        "c946f1098ca14a18a5ecfc2c3fdd9cec": 1,
+        "f47bfb6d205c4ab8838ecd8445eff586": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "73b13f40a1a24714ba033b6443e6b3a7": 2,
+        "8f78b31c15d54ef69278fa188fb193ea": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
+        "a700ebad27504678908570d66d678b5c": 1,
+        "cf2846522daf4845a6d8d8b8b2e17553": 1,
+        "05c191c211f5476b84669a034904d07a": 1,
+        "1f08add49d2741c882f40776d2fab26f": 1,
+        "5b63737422d7404ebd1cf8e15fdec88c": 1,
+        "dd76e5ff39c14192884020011daa92bd": 1,
+        "7f0ad408a835483d8942d64d433787e6": 1,
+        "6f84b3335a6146cab7731924dbb03837": 2,
+        "2fb7658358fb434aaf3e42c67621d147": 1,
+        "bd4e3df2b3774de085d90593e2c66c21": 2,
+        "635b14b437904b578bdbbbc90082a012": 1,
+        "99ec5d3acf4b40f496ac129e9192c8e6": 2,
+        "5238b137bf5c45d58a106d5530dbf5d0": 1,
+        "18fc52ec543d4c168333f60d49425c09": 1,
+        "11ecf094a4db4c18b3c1811c94437918": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          16,
+          "CAP-TH_L7.5-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C11,C12,C13,C14,C15,C16,C21",
+          {
+            "Manufacturer Part": "82CL0113",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5359294"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C17,C18",
+          {
+            "Manufacturer Part": "RC050M1R0LO5*11TH-2A1E",
+            "Manufacturer": "BERYL(绿宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C357595"
+          }
+        ],
+        [
+          "33pF",
+          2,
+          "RCL-TH_L4.0-W2.6-LS2.5",
+          "C19,C20",
+          {
+            "Manufacturer Part": "K330J15C0GF5TL2",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2170185"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD4.0-P1.50-D0.5-FD",
+          "C22",
+          {
+            "Manufacturer Part": "6.3MS510MEFCTZ4X5",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5115397"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C23",
+          {
+            "Manufacturer Part": "KM106M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43799"
+          }
+        ],
+        [
+          "DC-005-20A_C136744",
+          1,
+          "DC-IN-TH_DC-005-20A",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005-20A",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136744"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_36P-P2.54-V-M-R2-C18-S2.54",
+          "H2",
+          {
+            "Manufacturer Part": "PZ254-2-18-Z-8.5",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894979"
+          }
+        ],
+        [
+          "X1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H3",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H4",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H6",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "CLK-SELECT",
+          1,
+          "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54",
+          "CLK-SELECT",
+          {
+            "Manufacturer Part": "PZ254V-12-6P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492420"
+          }
+        ],
+        [
+          "JP1",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H7",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "JP2",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H8",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "BUS Z80",
+          2,
+          "HDR-TH_40P-P2.54-V-F",
+          "J1,J2",
+          {
+            "Manufacturer Part": "2.54-1*40P母高5.7",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C47940"
+          }
+        ],
+        [
+          "BUS Z80",
+          1,
+          "HDR-TH_40P-P2.54-V-M-R2-C20-S2.54",
+          "J6",
+          {
+            "Manufacturer Part": "PZ2.54-2*20",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5224014"
+          }
+        ],
+        [
+          "LMB162ADC",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer Part": "LMB162ADC",
+            "Manufacturer": "TOPWAY",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9741"
+          }
+        ],
+        [
+          "LTE-4208",
+          2,
+          "LED-TH_BD5.8-P2.54-FD",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "LTE-4208",
+            "Manufacturer": "LITEON(光宝)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5346733"
+          }
+        ],
+        [
+          "CIO A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P1",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P2",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "DECODER",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P4",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P5",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P6",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P7",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P8",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO C",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "P3",
+          {
+            "Manufacturer Part": "2.54-1*6P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C40877"
+          }
+        ],
+        [
+          "BC547C",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "BC547C",
+            "Manufacturer": "LGE(鲁光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713614"
+          }
+        ],
+        [
+          "680Ω",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "Manufacturer Part": "CF1/4W-680Ω±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120051"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R9",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R10,R11,R12,R13,R24,R25",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R16",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R17",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "2.7kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R18,R19,R20,R21,R22,R23",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "1MΩ",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R14",
+          {
+            "Manufacturer Part": "MF1/4W-1M±1%-OT52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2903250"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R15",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R26",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R27",
+          {
+            "Manufacturer Part": "MF1/4W-100K±1%-OT26",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843019"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ARRAY-TH_9P-P2.54-D1.0",
+          "RN1",
+          {
+            "Manufacturer Part": "A09-103JP",
+            "Manufacturer": "FH(风华)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C8692"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_3P-L7.1-W6.9-P2.50-L_3362P",
+          "RP1",
+          {
+            "Manufacturer Part": "3362P-1-202",
+            "Manufacturer": "BOCHEN(博晨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C118929"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "RT1",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ],
+        [
+          "SCC A CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S5",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "SCC B CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S6",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "PIN LIBERI",
+          1,
+          "HDR-TH_4P-P2.54-V-F",
+          "S7",
+          {
+            "Manufacturer Part": "2.54-1*4P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2718488"
+          }
+        ],
+        [
+          "Reset",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1-RST",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "CLK",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW4-CLK",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "Z84C0020PEC",
+          1,
+          "PDIP-40_L52.3-W13.7-P2.54-LS15.5-BL",
+          "U1",
+          {
+            "Manufacturer Part": "Z84C0008PEG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3231800"
+          }
+        ],
+        [
+          "AT28C256-15PU",
+          1,
+          "PDIP-28_L37.0-W13.5-P2.54-LS15.6-BL",
+          "U2",
+          {
+            "Manufacturer Part": "AT28C256-15PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1348752"
+          }
+        ],
+        [
+          "BS62LV256",
+          1,
+          "CDIP-28_L37.8-W15.4-P2.54-LS15.2-BL",
+          "U3",
+          {
+            "Manufacturer Part": "CY62256NL-70PC",
+            "Manufacturer": "Infineon/CYPRESS(赛普拉斯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2956434"
+          }
+        ],
+        [
+          "SN74HCT138N",
+          1,
+          "DIP-16_L19.2-W6.6-P2.54-LS7.6-BL",
+          "U4",
+          {
+            "Manufacturer Part": "SN74HCT138N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67461"
+          }
+        ],
+        [
+          "CIO Z8536 6MHz",
+          1,
+          "PDIP-40_L52.3-W13.8-P2.54-LS15.2-BL",
+          "U5",
+          {
+            "Manufacturer Part": "Z0853606PSG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2614526"
+          }
+        ],
+        [
+          "Z8530 SCC",
+          1,
+          "PDIP-40_L51.8-W13.5-P2.54-LS15.4-BL",
+          "U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HCT04N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "U8",
+          {
+            "Manufacturer Part": "SN74HCT04N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50939"
+          }
+        ],
+        [
+          "SN74HCT14N",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U9",
+          {
+            "Manufacturer Part": "SN74HCT14N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352959"
+          }
+        ],
+        [
+          "CD74HCT74E",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U11",
+          {
+            "Manufacturer Part": "CD74HCT74E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523192"
+          }
+        ],
+        [
+          "SN74HCT32N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS8.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "SN74HCT32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869289"
+          }
+        ],
+        [
+          "SN74HCT273N",
+          2,
+          "PDIP-20_L25.4-W6.4-P2.54-LS7.6-BL",
+          "U12,U13",
+          {
+            "Manufacturer Part": "SN74HCT273N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523188"
+          }
+        ],
+        [
+          "SN74HCT02N",
+          1,
+          "DIP-14_L19.6-W6.4-P2.54-LS7.6-BL",
+          "U14",
+          {
+            "Manufacturer Part": "SN74HCT02N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C354417"
+          }
+        ],
+        [
+          "SN74HCT244N",
+          2,
+          "DIP-20_L25.5-W10.0-P2.54-LS7.6-BL",
+          "U15,U16",
+          {
+            "Manufacturer Part": "SN74HCT244N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347587"
+          }
+        ],
+        [
+          "X4",
+          1,
+          "HDR-TH_1P-V-F-1",
+          "X4",
+          {
+            "Manufacturer Part": "X5511FV-01-C30D97-0970",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2883469"
+          }
+        ],
+        [
+          "G1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "X5",
+          {
+            "Manufacturer Part": "ZX-PZ2.54-1-2PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7501260"
+          }
+        ],
+        [
+          "X6",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54",
+          "X6",
+          {
+            "Manufacturer Part": "PZ254V-12-4P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492419"
+          }
+        ],
+        [
+          "6MHz",
+          1,
+          "HC-49US_L11.0-W4.6-P4.88",
+          "XTAL1",
+          {
+            "Manufacturer Part": "ECS-60-32-4X",
+            "Manufacturer": "ECS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2636154"
+          }
+        ]
+      ],
+      "updateTime": 1742685125,
+      "createTime": 1741533194,
+      "histories": [],
+      "created_at": "2025-03-09 16:13:14",
+      "updated_at": "2025-03-23 00:12:05"
+    },
+    {
+      "uuid": "c7dc6e6768931739d90163c7f91ee8f3",
+      "puuid": "40d13fa43996bccee6df436abeaebad8",
+      "title": "PCB_Pc z80_versione_1",
+      "filename": "PCB_Pc z80_versione_1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "97b360975e524cc5a288f76a9239f480": 16,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 3,
+        "d985078ebb5942c7ae4d17d3b71c4141": 2,
+        "bc5e7caa6ce24680859c98593b802c4a": 1,
+        "e27e43a87233424da496ee2ae00cee25": 1,
+        "7012a5280a4447c6b89d74d20dba8ed7": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 4,
+        "5034cc45f37345f69e0f5323801c5716": 1,
+        "84f1ed3c8ee94504833047c26b4d21a2": 3,
+        "9f6fc8be498a43fb8bd7f327d2e2b0ba": 2,
+        "c33835c452fa4ef7836f90bb3b315c4d": 1,
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "3270674de653459681213848d7625a65": 2,
+        "17eda053266b4cdca86c67384ca2b6c2": 7,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "666264fd42b84465ad050a9517cab8cf": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 15,
+        "02e9a7a961db4476b473a93445dcc24e": 2,
+        "f6ffa34674dd47c09fdfebb09b99661e": 2,
+        "c946f1098ca14a18a5ecfc2c3fdd9cec": 1,
+        "f47bfb6d205c4ab8838ecd8445eff586": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "73b13f40a1a24714ba033b6443e6b3a7": 2,
+        "8f78b31c15d54ef69278fa188fb193ea": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
+        "a700ebad27504678908570d66d678b5c": 1,
+        "cf2846522daf4845a6d8d8b8b2e17553": 1,
+        "05c191c211f5476b84669a034904d07a": 1,
+        "1f08add49d2741c882f40776d2fab26f": 1,
+        "5b63737422d7404ebd1cf8e15fdec88c": 1,
+        "dd76e5ff39c14192884020011daa92bd": 1,
+        "7f0ad408a835483d8942d64d433787e6": 1,
+        "6f84b3335a6146cab7731924dbb03837": 2,
+        "2fb7658358fb434aaf3e42c67621d147": 1,
+        "bd4e3df2b3774de085d90593e2c66c21": 2,
+        "635b14b437904b578bdbbbc90082a012": 1,
+        "99ec5d3acf4b40f496ac129e9192c8e6": 2,
+        "5238b137bf5c45d58a106d5530dbf5d0": 1,
+        "18fc52ec543d4c168333f60d49425c09": 1,
+        "11ecf094a4db4c18b3c1811c94437918": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          16,
+          "CAP-TH_L7.5-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C11,C12,C13,C14,C15,C16,C21",
+          {
+            "Manufacturer Part": "82CL0113",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5359294"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C17,C18",
+          {
+            "Manufacturer Part": "RC050M1R0LO5*11TH-2A1E",
+            "Manufacturer": "BERYL(绿宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C357595"
+          }
+        ],
+        [
+          "33pF",
+          2,
+          "RCL-TH_L4.0-W2.6-LS2.5",
+          "C19,C20",
+          {
+            "Manufacturer Part": "K330J15C0GF5TL2",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2170185"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD4.0-P1.50-D0.5-FD",
+          "C22",
+          {
+            "Manufacturer Part": "6.3MS510MEFCTZ4X5",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5115397"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C23",
+          {
+            "Manufacturer Part": "KM106M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43799"
+          }
+        ],
+        [
+          "DC-005-20A_C136744",
+          1,
+          "DC-IN-TH_DC-005-20A",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005-20A",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136744"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_36P-P2.54-V-M-R2-C18-S2.54",
+          "H2",
+          {
+            "Manufacturer Part": "PZ254-2-18-Z-8.5",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894979"
+          }
+        ],
+        [
+          "X1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H3",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H4",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H6",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "CLK-SELECT",
+          1,
+          "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54",
+          "CLK-SELECT",
+          {
+            "Manufacturer Part": "PZ254V-12-6P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492420"
+          }
+        ],
+        [
+          "JP1",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H7",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "JP2",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H8",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "BUS Z80",
+          2,
+          "HDR-TH_40P-P2.54-V-F",
+          "J1,J2",
+          {
+            "Manufacturer Part": "2.54-1*40P母高5.7",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C47940"
+          }
+        ],
+        [
+          "BUS Z80",
+          1,
+          "HDR-TH_40P-P2.54-V-M-R2-C20-S2.54",
+          "J6",
+          {
+            "Manufacturer Part": "PZ2.54-2*20",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5224014"
+          }
+        ],
+        [
+          "LMB162ADC",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer Part": "LMB162ADC",
+            "Manufacturer": "TOPWAY",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9741"
+          }
+        ],
+        [
+          "LTE-4208",
+          2,
+          "LED-TH_BD5.8-P2.54-FD",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "LTE-4208",
+            "Manufacturer": "LITEON(光宝)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5346733"
+          }
+        ],
+        [
+          "CIO A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P1",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P2",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "DECODER",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P4",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P5",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P6",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P7",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P8",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO C",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "P3",
+          {
+            "Manufacturer Part": "2.54-1*6P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C40877"
+          }
+        ],
+        [
+          "BC547C",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "BC547C",
+            "Manufacturer": "LGE(鲁光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713614"
+          }
+        ],
+        [
+          "680Ω",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "Manufacturer Part": "CF1/4W-680Ω±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120051"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R9",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R10,R11,R12,R13,R24,R25",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R16",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R17",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "2.7kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R18,R19,R20,R21,R22,R23",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "1MΩ",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R14",
+          {
+            "Manufacturer Part": "MF1/4W-1M±1%-OT52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2903250"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R15",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R26",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R27",
+          {
+            "Manufacturer Part": "MF1/4W-100K±1%-OT26",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843019"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ARRAY-TH_9P-P2.54-D1.0",
+          "RN1",
+          {
+            "Manufacturer Part": "A09-103JP",
+            "Manufacturer": "FH(风华)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C8692"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_3P-L7.1-W6.9-P2.50-L_3362P",
+          "RP1",
+          {
+            "Manufacturer Part": "3362P-1-202",
+            "Manufacturer": "BOCHEN(博晨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C118929"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "RT1",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ],
+        [
+          "SCC A CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S5",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "SCC B CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S6",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "PIN LIBERI",
+          1,
+          "HDR-TH_4P-P2.54-V-F",
+          "S7",
+          {
+            "Manufacturer Part": "2.54-1*4P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2718488"
+          }
+        ],
+        [
+          "Reset",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1-RST",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "CLK",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW4-CLK",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "Z84C0020PEC",
+          1,
+          "PDIP-40_L52.3-W13.7-P2.54-LS15.5-BL",
+          "U1",
+          {
+            "Manufacturer Part": "Z84C0008PEG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3231800"
+          }
+        ],
+        [
+          "AT28C256-15PU",
+          1,
+          "PDIP-28_L37.0-W13.5-P2.54-LS15.6-BL",
+          "U2",
+          {
+            "Manufacturer Part": "AT28C256-15PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1348752"
+          }
+        ],
+        [
+          "BS62LV256",
+          1,
+          "CDIP-28_L37.8-W15.4-P2.54-LS15.2-BL",
+          "U3",
+          {
+            "Manufacturer Part": "CY62256NL-70PC",
+            "Manufacturer": "Infineon/CYPRESS(赛普拉斯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2956434"
+          }
+        ],
+        [
+          "SN74HCT138N",
+          1,
+          "DIP-16_L19.2-W6.6-P2.54-LS7.6-BL",
+          "U4",
+          {
+            "Manufacturer Part": "SN74HCT138N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67461"
+          }
+        ],
+        [
+          "CIO Z8536 6MHz",
+          1,
+          "PDIP-40_L52.3-W13.8-P2.54-LS15.2-BL",
+          "U5",
+          {
+            "Manufacturer Part": "Z0853606PSG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2614526"
+          }
+        ],
+        [
+          "Z8530 SCC",
+          1,
+          "PDIP-40_L51.8-W13.5-P2.54-LS15.4-BL",
+          "U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HCT04N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "U8",
+          {
+            "Manufacturer Part": "SN74HCT04N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50939"
+          }
+        ],
+        [
+          "SN74HCT14N",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U9",
+          {
+            "Manufacturer Part": "SN74HCT14N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352959"
+          }
+        ],
+        [
+          "CD74HCT74E",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U11",
+          {
+            "Manufacturer Part": "CD74HCT74E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523192"
+          }
+        ],
+        [
+          "SN74HCT32N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS8.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "SN74HCT32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869289"
+          }
+        ],
+        [
+          "SN74HCT273N",
+          2,
+          "PDIP-20_L25.4-W6.4-P2.54-LS7.6-BL",
+          "U12,U13",
+          {
+            "Manufacturer Part": "SN74HCT273N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523188"
+          }
+        ],
+        [
+          "SN74HCT02N",
+          1,
+          "DIP-14_L19.6-W6.4-P2.54-LS7.6-BL",
+          "U14",
+          {
+            "Manufacturer Part": "SN74HCT02N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C354417"
+          }
+        ],
+        [
+          "SN74HCT244N",
+          2,
+          "DIP-20_L25.5-W10.0-P2.54-LS7.6-BL",
+          "U15,U16",
+          {
+            "Manufacturer Part": "SN74HCT244N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347587"
+          }
+        ],
+        [
+          "X4",
+          1,
+          "HDR-TH_1P-V-F-1",
+          "X4",
+          {
+            "Manufacturer Part": "X5511FV-01-C30D97-0970",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2883469"
+          }
+        ],
+        [
+          "G1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "X5",
+          {
+            "Manufacturer Part": "ZX-PZ2.54-1-2PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7501260"
+          }
+        ],
+        [
+          "X6",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54",
+          "X6",
+          {
+            "Manufacturer Part": "PZ254V-12-4P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492419"
+          }
+        ],
+        [
+          "6MHz",
+          1,
+          "HC-49US_L11.0-W4.6-P4.88",
+          "XTAL1",
+          {
+            "Manufacturer Part": "ECS-60-32-4X",
+            "Manufacturer": "ECS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2636154"
+          }
+        ]
+      ],
+      "updateTime": 1741533992,
+      "createTime": 1741533992,
+      "histories": [],
+      "created_at": "2025-03-09 16:26:32",
+      "updated_at": "2025-03-09 16:26:32"
+    },
+    {
+      "uuid": "065a8889a3ae4a7b1318be97945d4993",
+      "puuid": "40d13fa43996bccee6df436abeaebad8",
+      "title": "PCB_Pc z80_versione_1_sistemata",
+      "filename": "PCB_Pc z80_versione_1_sistemata.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "97b360975e524cc5a288f76a9239f480": 16,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 3,
+        "d985078ebb5942c7ae4d17d3b71c4141": 2,
+        "bc5e7caa6ce24680859c98593b802c4a": 1,
+        "e27e43a87233424da496ee2ae00cee25": 1,
+        "7012a5280a4447c6b89d74d20dba8ed7": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 4,
+        "5034cc45f37345f69e0f5323801c5716": 1,
+        "84f1ed3c8ee94504833047c26b4d21a2": 3,
+        "9f6fc8be498a43fb8bd7f327d2e2b0ba": 2,
+        "c33835c452fa4ef7836f90bb3b315c4d": 1,
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "3270674de653459681213848d7625a65": 2,
+        "17eda053266b4cdca86c67384ca2b6c2": 7,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "666264fd42b84465ad050a9517cab8cf": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 15,
+        "02e9a7a961db4476b473a93445dcc24e": 2,
+        "f6ffa34674dd47c09fdfebb09b99661e": 2,
+        "c946f1098ca14a18a5ecfc2c3fdd9cec": 1,
+        "f47bfb6d205c4ab8838ecd8445eff586": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "73b13f40a1a24714ba033b6443e6b3a7": 2,
+        "8f78b31c15d54ef69278fa188fb193ea": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
+        "a700ebad27504678908570d66d678b5c": 1,
+        "cf2846522daf4845a6d8d8b8b2e17553": 1,
+        "05c191c211f5476b84669a034904d07a": 1,
+        "1f08add49d2741c882f40776d2fab26f": 1,
+        "5b63737422d7404ebd1cf8e15fdec88c": 1,
+        "dd76e5ff39c14192884020011daa92bd": 1,
+        "7f0ad408a835483d8942d64d433787e6": 1,
+        "6f84b3335a6146cab7731924dbb03837": 2,
+        "2fb7658358fb434aaf3e42c67621d147": 1,
+        "bd4e3df2b3774de085d90593e2c66c21": 2,
+        "635b14b437904b578bdbbbc90082a012": 1,
+        "99ec5d3acf4b40f496ac129e9192c8e6": 2,
+        "5238b137bf5c45d58a106d5530dbf5d0": 1,
+        "18fc52ec543d4c168333f60d49425c09": 1,
+        "11ecf094a4db4c18b3c1811c94437918": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          16,
+          "CAP-TH_L7.5-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C11,C12,C13,C14,C15,C16,C21",
+          {
+            "Manufacturer Part": "82CL0113",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5359294"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C17,C18",
+          {
+            "Manufacturer Part": "RC050M1R0LO5*11TH-2A1E",
+            "Manufacturer": "BERYL(绿宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C357595"
+          }
+        ],
+        [
+          "33pF",
+          2,
+          "RCL-TH_L4.0-W2.6-LS2.5",
+          "C19,C20",
+          {
+            "Manufacturer Part": "K330J15C0GF5TL2",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2170185"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD4.0-P1.50-D0.5-FD",
+          "C22",
+          {
+            "Manufacturer Part": "6.3MS510MEFCTZ4X5",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5115397"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C23",
+          {
+            "Manufacturer Part": "KM106M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43799"
+          }
+        ],
+        [
+          "DC-005-20A_C136744",
+          1,
+          "DC-IN-TH_DC-005-20A",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005-20A",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136744"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_36P-P2.54-V-M-R2-C18-S2.54",
+          "H2",
+          {
+            "Manufacturer Part": "PZ254-2-18-Z-8.5",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894979"
+          }
+        ],
+        [
+          "X1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H3",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H4",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H6",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "CLK-SELECT",
+          1,
+          "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54",
+          "CLK-SELECT",
+          {
+            "Manufacturer Part": "PZ254V-12-6P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492420"
+          }
+        ],
+        [
+          "JP1",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H7",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "JP2",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H8",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "BUS Z80",
+          2,
+          "HDR-TH_40P-P2.54-V-F",
+          "J1,J2",
+          {
+            "Manufacturer Part": "2.54-1*40P母高5.7",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C47940"
+          }
+        ],
+        [
+          "BUS Z80",
+          1,
+          "HDR-TH_40P-P2.54-V-M-R2-C20-S2.54",
+          "J6",
+          {
+            "Manufacturer Part": "PZ2.54-2*20",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5224014"
+          }
+        ],
+        [
+          "LMB162ADC",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer Part": "LMB162ADC",
+            "Manufacturer": "TOPWAY",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9741"
+          }
+        ],
+        [
+          "LTE-4208",
+          2,
+          "LED-TH_BD5.8-P2.54-FD",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "LTE-4208",
+            "Manufacturer": "LITEON(光宝)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5346733"
+          }
+        ],
+        [
+          "CIO A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P1",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P2",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "DECODER",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P4",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P5",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P6",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P7",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P8",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO C",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "P3",
+          {
+            "Manufacturer Part": "2.54-1*6P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C40877"
+          }
+        ],
+        [
+          "BC547C",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "BC547C",
+            "Manufacturer": "LGE(鲁光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713614"
+          }
+        ],
+        [
+          "680Ω",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "Manufacturer Part": "CF1/4W-680Ω±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120051"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R9",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R10,R11,R12,R13,R24,R25",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R16",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R17",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "2.7kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R18,R19,R20,R21,R22,R23",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "1MΩ",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R14",
+          {
+            "Manufacturer Part": "MF1/4W-1M±1%-OT52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2903250"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R15",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R26",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R27",
+          {
+            "Manufacturer Part": "MF1/4W-100K±1%-OT26",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843019"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ARRAY-TH_9P-P2.54-D1.0",
+          "RN1",
+          {
+            "Manufacturer Part": "A09-103JP",
+            "Manufacturer": "FH(风华)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C8692"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_3P-L7.1-W6.9-P2.50-L_3362P",
+          "RP1",
+          {
+            "Manufacturer Part": "3362P-1-202",
+            "Manufacturer": "BOCHEN(博晨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C118929"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "RT1",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ],
+        [
+          "SCC A CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S5",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "SCC B CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S6",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "PIN LIBERI",
+          1,
+          "HDR-TH_4P-P2.54-V-F",
+          "S7",
+          {
+            "Manufacturer Part": "2.54-1*4P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2718488"
+          }
+        ],
+        [
+          "Reset",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1-RST",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "CLK",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW4-CLK",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "Z84C0020PEC",
+          1,
+          "PDIP-40_L52.3-W13.7-P2.54-LS15.5-BL",
+          "U1",
+          {
+            "Manufacturer Part": "Z84C0008PEG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3231800"
+          }
+        ],
+        [
+          "AT28C256-15PU",
+          1,
+          "PDIP-28_L37.0-W13.5-P2.54-LS15.6-BL",
+          "U2",
+          {
+            "Manufacturer Part": "AT28C256-15PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1348752"
+          }
+        ],
+        [
+          "BS62LV256",
+          1,
+          "CDIP-28_L37.8-W15.4-P2.54-LS15.2-BL",
+          "U3",
+          {
+            "Manufacturer Part": "CY62256NL-70PC",
+            "Manufacturer": "Infineon/CYPRESS(赛普拉斯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2956434"
+          }
+        ],
+        [
+          "SN74HCT138N",
+          1,
+          "DIP-16_L19.2-W6.6-P2.54-LS7.6-BL",
+          "U4",
+          {
+            "Manufacturer Part": "SN74HCT138N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67461"
+          }
+        ],
+        [
+          "CIO Z8536 6MHz",
+          1,
+          "PDIP-40_L52.3-W13.8-P2.54-LS15.2-BL",
+          "U5",
+          {
+            "Manufacturer Part": "Z0853606PSG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2614526"
+          }
+        ],
+        [
+          "Z8530 SCC",
+          1,
+          "PDIP-40_L51.8-W13.5-P2.54-LS15.4-BL",
+          "U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HCT04N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "U8",
+          {
+            "Manufacturer Part": "SN74HCT04N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50939"
+          }
+        ],
+        [
+          "SN74HCT14N",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U9",
+          {
+            "Manufacturer Part": "SN74HCT14N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352959"
+          }
+        ],
+        [
+          "CD74HCT74E",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U11",
+          {
+            "Manufacturer Part": "CD74HCT74E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523192"
+          }
+        ],
+        [
+          "SN74HCT32N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS8.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "SN74HCT32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869289"
+          }
+        ],
+        [
+          "SN74HCT273N",
+          2,
+          "PDIP-20_L25.4-W6.4-P2.54-LS7.6-BL",
+          "U12,U13",
+          {
+            "Manufacturer Part": "SN74HCT273N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523188"
+          }
+        ],
+        [
+          "SN74HCT02N",
+          1,
+          "DIP-14_L19.6-W6.4-P2.54-LS7.6-BL",
+          "U14",
+          {
+            "Manufacturer Part": "SN74HCT02N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C354417"
+          }
+        ],
+        [
+          "SN74HCT244N",
+          2,
+          "DIP-20_L25.5-W10.0-P2.54-LS7.6-BL",
+          "U15,U16",
+          {
+            "Manufacturer Part": "SN74HCT244N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347587"
+          }
+        ],
+        [
+          "X4",
+          1,
+          "HDR-TH_1P-V-F-1",
+          "X4",
+          {
+            "Manufacturer Part": "X5511FV-01-C30D97-0970",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2883469"
+          }
+        ],
+        [
+          "G1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "X5",
+          {
+            "Manufacturer Part": "ZX-PZ2.54-1-2PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7501260"
+          }
+        ],
+        [
+          "X6",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54",
+          "X6",
+          {
+            "Manufacturer Part": "PZ254V-12-4P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492419"
+          }
+        ],
+        [
+          "6MHz",
+          1,
+          "HC-49US_L11.0-W4.6-P4.88",
+          "XTAL1",
+          {
+            "Manufacturer Part": "ECS-60-32-4X",
+            "Manufacturer": "ECS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2636154"
+          }
+        ]
+      ],
+      "updateTime": 1741554374,
+      "createTime": 1741554374,
+      "histories": [],
+      "created_at": "2025-03-09 22:06:14",
+      "updated_at": "2025-03-09 22:06:14"
+    },
+    {
+      "uuid": "9f0b8bea78a6c8b96bf2646082071656",
+      "puuid": "40d13fa43996bccee6df436abeaebad8",
+      "title": "PCB_Pc z80_senza arduino_2_piste_manuali 1",
+      "filename": "PCB_Pc z80_senza arduino_2_piste_manuali 1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "97b360975e524cc5a288f76a9239f480": 16,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 3,
+        "d985078ebb5942c7ae4d17d3b71c4141": 2,
+        "bc5e7caa6ce24680859c98593b802c4a": 1,
+        "e27e43a87233424da496ee2ae00cee25": 1,
+        "7012a5280a4447c6b89d74d20dba8ed7": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 4,
+        "5034cc45f37345f69e0f5323801c5716": 1,
+        "84f1ed3c8ee94504833047c26b4d21a2": 3,
+        "9f6fc8be498a43fb8bd7f327d2e2b0ba": 2,
+        "c33835c452fa4ef7836f90bb3b315c4d": 1,
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "3270674de653459681213848d7625a65": 2,
+        "17eda053266b4cdca86c67384ca2b6c2": 7,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "666264fd42b84465ad050a9517cab8cf": 1,
+        "9ea59130ae074fa3abe27de8cbf71d91": 15,
+        "02e9a7a961db4476b473a93445dcc24e": 2,
+        "f6ffa34674dd47c09fdfebb09b99661e": 2,
+        "c946f1098ca14a18a5ecfc2c3fdd9cec": 1,
+        "f47bfb6d205c4ab8838ecd8445eff586": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "73b13f40a1a24714ba033b6443e6b3a7": 2,
+        "8f78b31c15d54ef69278fa188fb193ea": 1,
+        "153ed004b0794cb6b8a2ebde7a1aabdf": 2,
+        "a700ebad27504678908570d66d678b5c": 1,
+        "cf2846522daf4845a6d8d8b8b2e17553": 1,
+        "05c191c211f5476b84669a034904d07a": 1,
+        "1f08add49d2741c882f40776d2fab26f": 1,
+        "5b63737422d7404ebd1cf8e15fdec88c": 1,
+        "dd76e5ff39c14192884020011daa92bd": 1,
+        "7f0ad408a835483d8942d64d433787e6": 1,
+        "6f84b3335a6146cab7731924dbb03837": 2,
+        "2fb7658358fb434aaf3e42c67621d147": 1,
+        "bd4e3df2b3774de085d90593e2c66c21": 2,
+        "635b14b437904b578bdbbbc90082a012": 1,
+        "99ec5d3acf4b40f496ac129e9192c8e6": 2,
+        "5238b137bf5c45d58a106d5530dbf5d0": 1,
+        "18fc52ec543d4c168333f60d49425c09": 1,
+        "11ecf094a4db4c18b3c1811c94437918": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          16,
+          "CAP-TH_L7.5-W2.5-P5.00-D0.5",
+          "C1,C2,C3,C4,C5,C6,C8,C9,C10,C11,C12,C13,C14,C15,C16,C21",
+          {
+            "Manufacturer Part": "82CL0113",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5359294"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C17,C18",
+          {
+            "Manufacturer Part": "RC050M1R0LO5*11TH-2A1E",
+            "Manufacturer": "BERYL(绿宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C357595"
+          }
+        ],
+        [
+          "33pF",
+          2,
+          "RCL-TH_L4.0-W2.6-LS2.5",
+          "C19,C20",
+          {
+            "Manufacturer Part": "K330J15C0GF5TL2",
+            "Manufacturer": "VISHAY(威世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2170185"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD4.0-P1.50-D0.5-FD",
+          "C22",
+          {
+            "Manufacturer Part": "6.3MS510MEFCTZ4X5",
+            "Manufacturer": "rubycon(红宝石)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5115397"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C23",
+          {
+            "Manufacturer Part": "KM106M016D11RR0VH2FP0",
+            "Manufacturer": "CX(承兴)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C43799"
+          }
+        ],
+        [
+          "DC-005-20A_C136744",
+          1,
+          "DC-IN-TH_DC-005-20A",
+          "DC1",
+          {
+            "Manufacturer Part": "DC-005-20A",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136744"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_36P-P2.54-V-M-R2-C18-S2.54",
+          "H2",
+          {
+            "Manufacturer Part": "PZ254-2-18-Z-8.5",
+            "Manufacturer": "HCTL(华灿天禄)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2894979"
+          }
+        ],
+        [
+          "X1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H3",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H4",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "X3",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "H6",
+          {
+            "Manufacturer Part": "PZ254V-11-02P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492401"
+          }
+        ],
+        [
+          "CLK-SELECT",
+          1,
+          "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54",
+          "CLK-SELECT",
+          {
+            "Manufacturer Part": "PZ254V-12-6P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492420"
+          }
+        ],
+        [
+          "JP1",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H7",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "JP2",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "H8",
+          {
+            "Manufacturer Part": "PM254V-11-06-H85",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832269"
+          }
+        ],
+        [
+          "BUS Z80",
+          2,
+          "HDR-TH_40P-P2.54-V-F",
+          "J1,J2",
+          {
+            "Manufacturer Part": "2.54-1*40P母高5.7",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C47940"
+          }
+        ],
+        [
+          "BUS Z80",
+          1,
+          "HDR-TH_40P-P2.54-V-M-R2-C20-S2.54",
+          "J6",
+          {
+            "Manufacturer Part": "PZ2.54-2*20",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5224014"
+          }
+        ],
+        [
+          "LMB162ADC",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer Part": "LMB162ADC",
+            "Manufacturer": "TOPWAY",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9741"
+          }
+        ],
+        [
+          "LTE-4208",
+          2,
+          "LED-TH_BD5.8-P2.54-FD",
+          "LED1,LED2",
+          {
+            "Manufacturer Part": "LTE-4208",
+            "Manufacturer": "LITEON(光宝)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5346733"
+          }
+        ],
+        [
+          "CIO A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P1",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P2",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "DECODER",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P4",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P5",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "OUT B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P6",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN A",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P7",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "IN B",
+          1,
+          "HDR-TH_10P-P2.54-V-F",
+          "P8",
+          {
+            "Manufacturer Part": "PM2.54-1*10",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116489"
+          }
+        ],
+        [
+          "CIO C",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "P3",
+          {
+            "Manufacturer Part": "2.54-1*6P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C40877"
+          }
+        ],
+        [
+          "BC547C",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "Manufacturer Part": "BC547C",
+            "Manufacturer": "LGE(鲁光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713614"
+          }
+        ],
+        [
+          "680Ω",
+          1,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R1",
+          {
+            "Manufacturer Part": "CF1/4W-680Ω±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120051"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R9",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R10,R11,R12,R13,R24,R25",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R16",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R17",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "2.7kΩ",
+          6,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R18,R19,R20,R21,R22,R23",
+          {
+            "Manufacturer Part": "CF1/4W-1KΩ±5% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C120055"
+          }
+        ],
+        [
+          "1MΩ",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R14",
+          {
+            "Manufacturer Part": "MF1/4W-1M±1%-OT52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2903250"
+          }
+        ],
+        [
+          "1kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R15",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R26",
+          {
+            "Manufacturer Part": "MO1/2WS-220K±5%-ST52",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C479385"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "RES-TH_BD2.7-L6.2-P10.20-D0.4",
+          "R27",
+          {
+            "Manufacturer Part": "MF1/4W-100K±1%-OT26",
+            "Manufacturer": "VO(翔胜)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2843019"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ARRAY-TH_9P-P2.54-D1.0",
+          "RN1",
+          {
+            "Manufacturer Part": "A09-103JP",
+            "Manufacturer": "FH(风华)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C8692"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_3P-L7.1-W6.9-P2.50-L_3362P",
+          "RP1",
+          {
+            "Manufacturer Part": "3362P-1-202",
+            "Manufacturer": "BOCHEN(博晨)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C118929"
+          }
+        ],
+        [
+          "L7805",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "RT1",
+          {
+            "Manufacturer Part": "L7805",
+            "Manufacturer": "OSEN(欧芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22378639"
+          }
+        ],
+        [
+          "SCC A CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S5",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "SCC B CLK",
+          1,
+          "HDR-TH_2P-P2.54-V-F",
+          "S6",
+          {
+            "Manufacturer Part": "ZX-PM2.54-1-2PY",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7499322"
+          }
+        ],
+        [
+          "PIN LIBERI",
+          1,
+          "HDR-TH_4P-P2.54-V-F",
+          "S7",
+          {
+            "Manufacturer Part": "2.54-1*4P母",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2718488"
+          }
+        ],
+        [
+          "Reset",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW1-RST",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "CLK",
+          1,
+          "SW-TH_4P-L6.0-W6.0-P4.50-LS6.5",
+          "SW4-CLK",
+          {
+            "Manufacturer Part": "TS665CJ",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C393938"
+          }
+        ],
+        [
+          "Z84C0020PEC",
+          1,
+          "PDIP-40_L52.3-W13.7-P2.54-LS15.5-BL",
+          "U1",
+          {
+            "Manufacturer Part": "Z84C0008PEG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3231800"
+          }
+        ],
+        [
+          "AT28C256-15PU",
+          1,
+          "PDIP-28_L37.0-W13.5-P2.54-LS15.6-BL",
+          "U2",
+          {
+            "Manufacturer Part": "AT28C256-15PU",
+            "Manufacturer": "MICROCHIP(美国微芯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1348752"
+          }
+        ],
+        [
+          "BS62LV256",
+          1,
+          "CDIP-28_L37.8-W15.4-P2.54-LS15.2-BL",
+          "U3",
+          {
+            "Manufacturer Part": "CY62256NL-70PC",
+            "Manufacturer": "Infineon/CYPRESS(赛普拉斯)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2956434"
+          }
+        ],
+        [
+          "SN74HCT138N",
+          1,
+          "DIP-16_L19.2-W6.6-P2.54-LS7.6-BL",
+          "U4",
+          {
+            "Manufacturer Part": "SN74HCT138N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67461"
+          }
+        ],
+        [
+          "CIO Z8536 6MHz",
+          1,
+          "PDIP-40_L52.3-W13.8-P2.54-LS15.2-BL",
+          "U5",
+          {
+            "Manufacturer Part": "Z0853606PSG",
+            "Manufacturer": "Zilog",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2614526"
+          }
+        ],
+        [
+          "Z8530 SCC",
+          1,
+          "PDIP-40_L51.8-W13.5-P2.54-LS15.4-BL",
+          "U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "SN74HCT04N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "U8",
+          {
+            "Manufacturer Part": "SN74HCT04N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C50939"
+          }
+        ],
+        [
+          "SN74HCT14N",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U9",
+          {
+            "Manufacturer Part": "SN74HCT14N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352959"
+          }
+        ],
+        [
+          "CD74HCT74E",
+          1,
+          "PDIP-14_L19.7-W6.6-P2.54-LS8.3-BL",
+          "U11",
+          {
+            "Manufacturer Part": "CD74HCT74E",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523192"
+          }
+        ],
+        [
+          "SN74HCT32N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS8.0-BL",
+          "U10",
+          {
+            "Manufacturer Part": "SN74HCT32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869289"
+          }
+        ],
+        [
+          "SN74HCT273N",
+          2,
+          "PDIP-20_L25.4-W6.4-P2.54-LS7.6-BL",
+          "U12,U13",
+          {
+            "Manufacturer Part": "SN74HCT273N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1523188"
+          }
+        ],
+        [
+          "SN74HCT02N",
+          1,
+          "DIP-14_L19.6-W6.4-P2.54-LS7.6-BL",
+          "U14",
+          {
+            "Manufacturer Part": "SN74HCT02N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C354417"
+          }
+        ],
+        [
+          "SN74HCT244N",
+          2,
+          "DIP-20_L25.5-W10.0-P2.54-LS7.6-BL",
+          "U15,U16",
+          {
+            "Manufacturer Part": "SN74HCT244N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347587"
+          }
+        ],
+        [
+          "X4",
+          1,
+          "HDR-TH_1P-V-F-1",
+          "X4",
+          {
+            "Manufacturer Part": "X5511FV-01-C30D97-0970",
+            "Manufacturer": "XKB Connectivity(中国星坤)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2883469"
+          }
+        ],
+        [
+          "G1",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "X5",
+          {
+            "Manufacturer Part": "ZX-PZ2.54-1-2PZZ",
+            "Manufacturer": "Megastar(兆星)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C7501260"
+          }
+        ],
+        [
+          "X6",
+          1,
+          "HDR-TH_4P-P2.54-V-M-R2-C2-S2.54",
+          "X6",
+          {
+            "Manufacturer Part": "PZ254V-12-4P",
+            "Manufacturer": "XFCN(兴飞)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492419"
+          }
+        ],
+        [
+          "6MHz",
+          1,
+          "HC-49US_L11.0-W4.6-P4.88",
+          "XTAL1",
+          {
+            "Manufacturer Part": "ECS-60-32-4X",
+            "Manufacturer": "ECS",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2636154"
+          }
+        ]
+      ],
+      "updateTime": 1741555058,
+      "createTime": 1741555058,
+      "histories": [],
+      "created_at": "2025-03-09 22:17:38",
+      "updated_at": "2025-03-09 22:17:38"
+    }
+  ],
+  "sort": [],
+  "title": "Pc z80_senza arduino",
+  "foldername": "Pc z80_senza arduino",
+  "schfilename": "Pc z80_senza arduino.json",
+  "schfilemtime": 1742723622199
+}
